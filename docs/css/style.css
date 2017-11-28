@@ -52,7 +52,7 @@ table {
   line-height: 1.5; }
 
 body {
-  background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.9) 50%, black 100%), url(/img/bg.jpg);
+  background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.9) 50%, black 100%), url(img/bg.jpg);
   background-size: cover, cover; }
 
 #map {
@@ -72,7 +72,7 @@ body {
   width: 260px;
   height: 173px;
   color: transparent;
-  background-image: url(/img/ind.png);
+  background-image: url(img/ind.png);
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feGaussianBlur in="SourceAlpha" stdDeviation="20" /><feOffset dx="1" dy="1" result="offsetblur" /><feFlood flood-color="rgba(255,255,255,0.8)" /><feComposite in2="offsetblur" operator="in" /><feMerge><feMergeNode /><feMergeNode in="SourceGraphic" /></feMerge></filter></svg>#filter');
