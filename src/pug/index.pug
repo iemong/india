@@ -1,0 +1,14 @@
+extends /layout/_default-layout
+
+prepend config-block
+  - page_name = ''
+
+//- append stylesheet-block
+
+prepend javascript-block
+  script(src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCmeDALk6mlqpfc5MkrZXrgvultGy9DzfA&libraries=places")
+
+
+block content-block
+  #map
+  #button インド
